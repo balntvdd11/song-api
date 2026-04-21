@@ -45,7 +45,7 @@ public class SongController {
     }
 
 
-    @GetMapping(path="/songs")
+    @GetMapping(path="/songss")
     public @ResponseBody Iterable<Song> getAllSongs() {
         return songRepository.findAll();
     }
